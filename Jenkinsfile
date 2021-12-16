@@ -46,7 +46,7 @@ stages{
   stage('DeployAppIntoTomcat'){
   steps{
   sshagent(['91e386bd-cbf5-41b1-b5d2-d9e8a8d68c01']) {
-     sh label: '', script: 'scp  target/maven-web-application.war  ubuntu@172.31.90.236:/var/lib/tomcat8/webapps/qaenv.war'
+     sh label: '', script: 'scp  target/maven-web-application.war  ubuntu@172.31.90.236:/var/lib/tomcat8/webapps/prodenv.war'
   
   }
   }
