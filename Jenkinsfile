@@ -36,13 +36,13 @@ stages{
   sh  "mvn clean sonar:sonar"
   }
   }
- /*
+ 
   stage('UploadArtifactsIntoNexus'){
   steps{
   sh  "mvn clean deploy"
   }
   }
-  
+ /*
   stage('DeployAppIntoTomcat'){
   steps{
   sshagent(['91e386bd-cbf5-41b1-b5d2-d9e8a8d68c01']) {
