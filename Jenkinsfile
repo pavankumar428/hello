@@ -24,7 +24,7 @@ stages{
 	
 	}
   }
-  
+  /*
   stage('Build'){
   steps{
   sh  "mvn clean package"
@@ -36,7 +36,7 @@ stages{
   sh  "mvn clean sonar:sonar"
   }
   }
- /*
+ 
   stage('UploadArtifactsIntoNexus'){
   steps{
   sh  "mvn clean deploy"
