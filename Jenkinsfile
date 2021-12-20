@@ -47,7 +47,7 @@ stages{
   steps{
 	  
 
-  sh "scp -o StrictHostKeyChecking=no /target/maven-web-application.war  ubuntu@172.31.87.40:"
+  sh "scp -o StrictHostKeyChecking=no /target/maven-web-application.war  ubuntu@172.31.87.40:/var/lib/tomcat9/webapps/prodenv.war"
   }
   }
   
