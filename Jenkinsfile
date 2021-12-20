@@ -45,12 +45,12 @@ stages{
  
   stage('DeployAppIntoTomcat'){
   steps{
-	  sshagent(['b75ddb57-389b-4607-8bbb-47c090ee09b7']){
+	  
 
-           sh "scp -o StrictHostKeyChecking=no /target/maven-web-application.war  ubuntu@172.31.85.35:/opt/"
+  sh "scp -o StrictHostKeyChecking=no /target/maven-web-application.war  ubuntu@172.31.87.40:"
   }
   }
-  }
+  
   
   
   
