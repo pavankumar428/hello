@@ -45,11 +45,11 @@ stages{
  
   stage('DeployAppIntoTomcat'){
   steps{
-  sshagent(['b75ddb57-389b-4607-8bbb-47c090ee09b7']) {
-    sh "scp  /var/lib/jenkins/workspace/p1/target/maven-web-application.war  ubuntu@172.31.85.35:/etc/tomcat8/denv.war"
+
+  sh "scp  /var/lib/jenkins/workspace/p1/target/maven-web-application.war  ubuntu@172.31.85.35:/etc/tomcat8/denv.war"
   }
   }
-  }
+  
   
   
 }//Stages Closing
