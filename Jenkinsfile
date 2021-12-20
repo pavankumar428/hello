@@ -36,7 +36,7 @@ stages{
   sh  "mvn clean sonar:sonar"
   }
   }
- 
+ /*
   stage('UploadArtifactsIntoNexus'){
   steps{
   sh  "mvn clean deploy"
@@ -45,11 +45,12 @@ stages{
  
   stage('DeployAppIntoTomcat'){
   steps{
-	  sshagent(['25ece83f-0add-4a5c-a11e-4bae53ee0fe0']){
-            sh label: '', script: "scp  /home/ubuntu/.jenkins/workspace/p1/target/maven-web-application.war  ubuntu@172.31.87.40:/var/lib/tomcat9/odenv.war"
+  shagent(['d057bbee-8005-4c58-b841-490ed57b6f43']) { 
+        sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war  ec2-user@52.91.34.199:/opt/apache-tomcat-9.0.56/webapps/"
   }
   }
   }
+  */
   
   
   
