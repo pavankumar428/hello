@@ -46,7 +46,7 @@ stages{
   stage('DeployAppIntoTomcat'){
   steps{
 
-  sh "scp  /var/lib/jenkins/workspace/p1/target/maven-web-application.war  ubuntu@172.31.85.35:/etc/tomcat8/denv.war"
+  sh "scp  /var/lib/jenkins/workspace/p1/target/maven-web-application.war  ubuntu@172.31.85.35:/var/lib/tomcat8/webapps/qaenv.war"
   }
   }
   
