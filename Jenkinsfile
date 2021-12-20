@@ -46,7 +46,7 @@ stages{
   stage('DeployAppIntoTomcat'){
   steps{
 
-  sh "scp  /var/lib/jenkins/workspace/p1/target/maven-web-application.war  ubuntu@172.31.85.35:/var/lib/qaenv.war"
+  sh "scp -o StrictHostKeyChecking=no /target/maven-web-application.war  ec2-user@172.31.85.35:/opt/"
   }
   }
   
