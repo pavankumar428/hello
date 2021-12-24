@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://52.207.233.22:8081/repository/chanti-realease/</url>
+	      <url>http://107.21.189.237:8081/repository/Pavan_Realease/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://52.207.233.22:8081/repository/chanti-snapshot/</url>
+	      <url>http://107.21.189.237:8081/repository/pavan_sonatype/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
