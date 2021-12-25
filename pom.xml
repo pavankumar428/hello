@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://107.21.189.237:8081/repository/Pavan_Realease/</url>
+	      <url>http://3.80.27.128:8081/repository/Pradeep_Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://107.21.189.237:8081/repository/pavan_sonatype/</url>
+	      <url>http://3.80.27.128:8081/repository/Pradeep_Release/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
