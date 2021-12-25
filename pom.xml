@@ -104,7 +104,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://3.80.27.128:8081/repository/Pradeep_Release/</url>
+	      <url>http://3.80.27.128:8081/repository/Pradeep_Sonatype/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
