@@ -20,7 +20,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>3.8.1</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-	        <sonar.host.url>http://54.234.221.221:9000/</sonar.host.url>
+	        <sonar.host.url>http://3.87.153.117:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -97,13 +97,13 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://75.101.201.122:8081/repository/Pradeep_Release/</url>
+	      <url>http://54.88.243.252:8081/repository/Pradeep_Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://75.101.201.122:8081/repository/Pradeep_Sonatype/</url>
+	      <url>http://54.88.243.252:8081/repository/Pradeep_Sonatype/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
