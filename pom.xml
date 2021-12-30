@@ -31,16 +31,18 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
            <repository>
               <id>nexus</id>
               <name>Remote Repo -MSS</name>
-              <url>http://54.145.227.88:8081/repository/Pavan-remote/</url>
+              <url>http://54.145.227.88:8081/repository/proxy-mixed/</url>
            </repository>
         </repositories>
   
 	<dependencies>
+		</--
 		<dependency>
                        <groupId>com.mss</groupId>
                        <artifactId>mail</artifactId>
                        <version>1.0.0</version>
                 </dependency>
+	       -->
 		
 		<dependency>
 			<groupId>org.json</groupId>
