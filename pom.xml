@@ -33,7 +33,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
               <name>Remote Repo -MSS</name>
               <url>http://54.145.227.88:8081/repository/remote-repo-mss/</url>
            </repository>
-       </repositories>
+        </repositories>
   
 	<dependencies>
 		
