@@ -78,4 +78,3 @@ post{
 
 
 }//Pipeline closing
-}
